@@ -7,7 +7,6 @@ ul.main-menu {
     margin: 0;
     padding: 0;
     with:   60;
-    background-color: lightgrey;
 }
 ul.main-menu>li {
     display: block;
