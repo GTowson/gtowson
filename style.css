@@ -11,3 +11,7 @@ ul.main-menu {
 ul.main-menu>li {
     display: block;
 }
+body {
+    background-color: lightgray;
+}
+
