@@ -1,4 +1,7 @@
 h1 { color: lightblue; }
+<style>
+p.serif {
+    font-family: "Times New Roman", Times, serif;}
 ul.main-menu {
     list-style-type: none;
     margin: 0;
