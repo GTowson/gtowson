@@ -6,7 +6,8 @@ ul.main-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    with:   60;
 }
 ul.main-menu>li {
-    display: inline;
+    display: block;
 }
