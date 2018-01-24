@@ -1,13 +1,31 @@
-h1 { color: lightblue; }
-<style>
-p.serif {
-    font-family: "Times New Roman", Times, serif;}
+body {
+  "Times New Roman", Times, serif;
+  font-size: 125%;
+}
+h1 { 
+  font-variant: small-caps;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 ul.main-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    with:   60;
 }
 ul.main-menu>li {
-    display: block;
+    display: inline;
 }
+.frame {
+width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+
+
+
+
+
+
+
