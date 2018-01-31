@@ -1,6 +1,6 @@
 body {
-  "Times New Roman", Times, serif;
-  font-size: 125%;
+  font-family: 'Lora', serif;
+  font-size: 100%;
 }
 h1 { 
   font-variant: small-caps;
