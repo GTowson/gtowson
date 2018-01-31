@@ -1,9 +1,9 @@
 body {
-font-family: 'Crimson Text', serif;
+font-family: 'Cormorant Garamond', serif;;
   font-size: 100%;
 }
 h1 { 
-  font-variant: small-caps;
+  font-weight: bold;
   text-align: left;
   margin-bottom: 15px;
 }
