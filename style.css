@@ -4,10 +4,11 @@ font-family: 'Crimson Text', serif;
 }
 h1 { 
   font-variant: small-caps;
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
 }
 ul.main-menu {
+    text-align: left:
     list-style-type: none;
     margin: 0;
     padding: 0;
