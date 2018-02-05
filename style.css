@@ -17,7 +17,7 @@ ul.main-menu {
     padding: 0;
 }
 ul.main-menu>li {
-    display: inline;
+    display: block;
 }
 .frame {
 width: 70%;
