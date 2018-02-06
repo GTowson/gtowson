@@ -1,4 +1,7 @@
 body {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/san-francisco-city-skyline-emily-golitzin.jpg");
+    background-color: #cccccc;
+}
 font-family: 'Cormorant Garamond', serif;;
   font-size: 100%;
 }
@@ -17,7 +20,7 @@ ul.main-menu {
     padding: 0;
 }
 ul.main-menu>li {
-    display: block;
+    display: inline;
 }
 .btn:hover{
   border:none;
