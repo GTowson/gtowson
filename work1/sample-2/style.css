@@ -1,5 +1,7 @@
 p {
     text-indent: 50px;
+    line-height: 1.6;
+}
 }
 body {
     background-color: grey;
