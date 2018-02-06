@@ -4,6 +4,7 @@ body {
 p {
     text-indent: 50px;
     line-height: 1.6;
+    background-color: grey;
 }
 ul.main-menu {
     list-style-type: none;
