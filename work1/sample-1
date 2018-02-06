@@ -5,13 +5,13 @@
        <title>Class Writing Sample One</title>
     </head>
   <body>
-       <h1>Gabby Towson</h1> 
+       <h1>Sample One</h1> 
       <nav><ul class="main-menu">
-  <li><a href="work1"> Work-in-Progress Submission One</a></li>
+  <li><a href="work1"> Work-in-Progress Submission One< Work One</a></li>
   <li><a href="https://gtowson.github.io/gtowson/> Home</a></li>       
 </ul><nav/>
        <main>
-           <h2>About Me</h2>
+           <h2>Craigslist Ad</h2>
             <p>sample one</p> 
        </main>
 <footer>My Footer<footer/>         
