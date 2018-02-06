@@ -13,11 +13,9 @@ font-family: 'Playfair Display SC', serif;
 }
 ul.main-menu {
   font-family: 'Playfair Display SC', serif;
-    text-align: center:
     margin: 0;
     padding: 0;
-}
-ul.main-menu>li {
+    color: black;
     display: inline;
     text-align: center; 
 }
