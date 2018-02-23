@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+<body>
+<style>
+div.a {
+    line-height: 1.6;
+     text-indent: 50px;
+}
+div.b {
+    line-height: 1.6;
+     text-indent: 50px;
+}
+</style>
+  <h1>Skills Assignment Learning Log</h1>
+  <nav><ul class="main-menu">
+    <li><a href="/">Home</a></li>
+    <li>Skills Assignment</li>
+    <li><a href="/work-2/">Work-in-Progress 2</a></li>
+    </ul></nav>
+  <main>
+    <h2>My Skills Assignment</h2>
+   <div class="a">This week I worked on the first half of my web design curriculum. I researched non-profit websites for about four hours, and spent another six hours on the second Lynda CSS essential training. I started my research on non-profit websites by looking at major international non-profits sites like the Red Cross and Oxfam. After looking at both of these sites I realized that they shared many common design elements. Both websites focused heavily on incorporating visual elements that illustrated their work and organizational mission clearly to their audience. On both websites multiple images are featured on top of a white background. Having colorful images on top of a white background also make the images stand out. On the Red Crosses website for example, the home page features multiple striking images showing red cross employees at work in different communities on top of a white background. These images help to illustrate what the organization does and also feature highlighted links offering users an opportunity to connect with the organization through donating or volunteering. The images are very compelling and I imagine help to increase the chances of a user choosing to donate or volunteer with the Red Cross. When designing my website, I want to incorporate visual elements in a similar way.</div>
+<div class="b"> I also started to watch the second Lynda CSS essential training this week. Watching the videos took me longer than I expected because I stopped regularly to rewind and practice the things that the course was going over. I didn’t do this as much with the first training so I didn’t expect to spend as much time as I did on these videos this week. However, I found them more helpful this week because I have more of an understanding of how CSS works. I also felt more comfortable skipping around the video series and not necessarily watching them in order which made it easier for me to gain a deeper understanding of the lessons and left me less overwhelmed in general. I will probably do the same thing for the next video series next week, and really only focus on the components I want to use on my website. </div>
+    <h1>Learning Log</h1>
+            <table>
+            <tr><th>Start time/date</th><th>End time/date</th><th>Description of focus</th>
+            <tr><td>Monday,Feb 19 1:00 PM</td><td>5:00 PM</td><td>Non-Profit Website Research</td></tr>
+            <tr><td>Wed, Feb 21st, 1:00 PM</td><td>6:00 PM</td><td>Second CSS Training Video Series</td></tr>
+            <tr><td>Friday, Feb 23rd, 12:00 PM</td><td>1:30 PM</td><td>Second CSS Training Video Series</td></tr>
+            </table>
+  </main>
+</body>
+</html>
