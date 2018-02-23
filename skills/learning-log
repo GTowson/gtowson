@@ -16,9 +16,8 @@ div.b {
 </style>
   <h1>Skills Assignment Learning Log</h1>
   <nav><ul class="main-menu">
-    <li><a href="/">Home</a></li>
-    <li>Skills Assignment</li>
-    <li><a href="/work-2/">Work-in-Progress 2</a></li>
+  <li><a href="https://gtowson.github.io/gtowson/"> Home</a></li>
+  <li><a href="https://gtowson.github.io/gtowson/skills/"</a>Skills Assignment</li>
     </ul></nav>
   <main>
     <h2>My Skills Assignment</h2>
