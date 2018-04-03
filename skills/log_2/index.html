@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 div.a {
     line-height: 1.6;
      text-indent: 50px;
+     margin: 50px;
 }
 div.b {
     line-height: 1.6;
      text-indent: 50px;
+     margin: 50px;
 }
 table, td, th {    
     border: 1px solid #ddd;
     text-align: left;
+    margin: 30px;
 }
 
 table {
@@ -23,15 +28,103 @@ table {
 th, td {
     padding: 15px;
 }
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
-  <h1>Skills Assignment Learning Log Two</h1>
-  <nav><ul class="main-menu">
-  <li><a href="https://gtowson.github.io/gtowson/"> Home Page</a></li>
-  <li><a href="https://gtowson.github.io/gtowson/skills/log/index.html">Previous Page</a></li>
-      <li><a href="https://gtowson.github.io/gtowson/skills/final-reflection/index.html">Final Reflection</a></li>
-    </ul></nav>
-  <main>
-    <h2>Learning Log</h2>
+</head>
+<body>
+
+<div class="navbar">
+   <a href="https://gtowson.github.io/gtowson/">Home</a>
+   <a href="https://gtowson.github.io/gtowson/biography/index.html">About Me</a>
+<div class="dropdown">
+    <button class="dropbtn">WIP I
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work1/">Reflection</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-1/">Sample I</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-2/">Sample II</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">WIP II
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work-2/">Reflection</a>
+      <a href="#">Sample I</a>
+      <a href="#">Sample II</a>
+    </div>
+    </div>
+<a href="https://gtowson.github.io/gtowson/portfolio/"> Final Portfolio</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Skills
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/skills/">Log One</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log/index.html">Log Two</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log_2/index.html">Log Three</a>
+      <a href="https://gtowson.github.io/gtowson/skills/final-reflection/index.html">Final Reflection</a>
+    </div>
+    </div>
+  </div> 
+  </div> 
+</div>
+<body>
+
+    <h2 align="center">Learning Log</h2>
    <div class="a">  I started the Lynda Design Aesthetics for the Web video series on Saturday. I watched about a quarter of the videos in this series, often stopping to take notes and compare what I was learning to real non-profit websites. One of the parts of this video series that I found the most interesting were the videos at the very beginning that talked about color and using color to set the mood of the site. I personally am very receptive to the way color is used on a website and find myself more likely to see the website as reliable and professional if color is used appealingly. The video identified common ways that designers find colors that work well together and how color can be used to establish the mood of the website. Watching this helped me to understand the design choices made by non-profits. Pulse, a local Pittsburgh non-profit, uses different shades of red, blue, and yellow on their website. These three colors represent a triad, three colors that are equally distant on a color wheel. According to the video, triads bring harmony and cohesiveness to the overall website. These three colors also set the mood of the overall site. The use of red, which is seen in Pulses logo and on their sidebar menu gives the website a sense of urgency and importance. The use of yellow and blue, however, brings down that harsher tone of the red and makes the website more inviting, happy, and calm. While I don’t think I will use the same colors that Pulse uses on their website, watching these videos on color helped me to understand why color choice is important and why I should take into consideration mood, genre, and purpose when choosing colors.</div>
 <div class="b"> On Sunday, I continued to watch the Lynda videos on web design and focused on the videos that discussed how to best structure layouts. A lot of the non-profit websites that I’ve looked at feature a lot of text-heavy content but organize them efficiently using lines, and boxes. A lot of these websites also have a lot of open space around text-heavy content areas which helps the site not to be too overwhelming. Watching the Lynda videos on using space to organize a design and setting boundaries with lines helped me to visualize different ideas on how to replicate the organization that I like from other non-profit websites in my design. I finished the Lynda video series on web design on Monday. The videos towards the end of the series focused on issues that I hadn’t necessarily thought that much about and pushed me to think beyond surface level design issues. These videos concentrated on things like making sure the webpage was accessible to the widest audience possible and making my website as original as possible. Watching these last few videos was helpful because I considered things that I wouldn’t have necessarily considered before, like picking colors will be accessible to the broadest audience possible, and how I can take risks during the design process. </div>
  <table>
