@@ -1,36 +1,113 @@
-<!doctype html>
-<html> 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <head>
-    <style>
-div.a {
-    line-height: 1.6;
-     text-indent: 50px;
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div.b {
-    line-height: 1.6;
-     text-indent: 50px;
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-div.c {
-    line-height: 1.6;
-     text-indent: 50px;
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 </style>
-    </head>
-  <body>
-       <h1>About Me</h1> 
-      <nav><ul class="main-menu">
-  <li><a href="https://gtowson.github.io/gtowson/"> Home</a></li>    
-</ul><nav/>
-       <div class="a"> Hello! My name is Gabrielle Towson, and I am a second-year student at the University of Pittsburgh, originally from Washington D.C., I am currently an Urban Studies and Public and Professional Writing double major, with a minor in Public Service. One of the reasons that I choose to attend the University of Pittsburgh was because of the dynamic and evolving nature of the city itself.
-As an Urban Studies major, I am inherently interested in how cities are built, grown and supported, and have been able to follow this academic passion through my work at Pitt. 
+</head>
+<body>
+
+<div class="navbar">
+   <a href="index.html">Home</a>
+ <a href="work1"> WIP One</a> 
+ <a href="work-2"> WIP Two</a>
+<a href="portfolio"> Final Portfolio</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Skills
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="skills">Log One</a>
+      <a href="skills/log">Log Two</a>
+      <a href="skills/log_2">Log Three</a>
+      <a href="skills/final-reflection">Final Reflection</a>
+    </div>
+  </div> 
 </div>
+<html>
+<head>
+<style>
+p {
+    border: 1px solid white;
+    padding: 30px;
+     line-height: 1.5;
+     margin: .5px ;
+}
+</style>
+</head>
+<body>
 
-<div class="b">I am currently working as a Homewood Community Fellow with a non-profit organization in Homewood. Working in Homewood has allowed me to better understand how strategic engagement in communities between civic leaders and residents can inspire lasting social change that disrupts economic and social disparities throughout communities. Over my next two years at Pitt, I am interested in continuing to learn how I can translate my academic passions into meaningful service that contributes to sustainable community development for all residents. </div>
+<h1 align="center">About Me</h1>
 
-<div class="c">My resume is included below:	</div>
-<embed src="ResumeWebsite.pdf" width="800" height="400">
-  </body>
-  </html>
+<p>Hello! My name is Gabrielle Towson, and I am a second-year student at the University of Pittsburgh, originally from Washington D.C., I am currently an Urban Studies and Public and Professional Writing double major, with a minor in Public Service. One of the reasons that I choose to attend the University of Pittsburgh was because of the dynamic and evolving nature of the city itself. As an Urban Studies major, I am inherently interested in how cities are built, grown and supported, and have been able to follow this academic passion through my work at Pitt.
+</p>
+<p>I am currently working as a Homewood Community Fellow with a non-profit organization in Homewood. Working in Homewood has allowed me to better understand how strategic engagement in communities between civic leaders and residents can inspire lasting social change that disrupts economic and social disparities throughout communities. Over my next two years at Pitt, I am interested in continuing to learn how I can translate my academic passions into meaningful service that contributes to sustainable community development for all residents.</p>
+<p>Connect with me on <a href="https://www.linkedin.com/in/gabrielle-t-02467082/">LinkedIn</a></p>
+</body>
+</html>
+
+</style>
+</head>
+</body>
+</html>
