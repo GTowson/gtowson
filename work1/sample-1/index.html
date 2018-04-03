@@ -1,12 +1,116 @@
-<!doctype html>
-<html> 
-    <link rel="stylesheet" type="text/css" href="style.css">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+   <a href="https://gtowson.github.io/gtowson/">Home</a>
+   <a href="https://gtowson.github.io/biography/">About Me</a>
+<div class="dropdown">
+    <button class="dropbtn">WIP I
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work-1/">Reflection</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-1/index.html">Sample I</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-2/index.html">Sample II</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">WIP II
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work-2/">Reflection</a>
+      <a href="#">Sample I</a>
+      <a href="#">Sample II</a>
+    </div>
+    </div>
+<a href="https://gtowson.github.io/gtowson/portfolio/"> Final Portfolio</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Skills
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/skills/">Log One</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log/index.html">Log Two</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log_2/index.html">Log Three</a>
+      <a href="https://gtowson.github.io/gtowson/skills/final-reflection/index.html">Final Reflection</a>
+    </div>
+    </div>
+  </div> 
+  </div> 
+</div>
   <body> 
+      
       <nav><ul class="main-menu">
   <li><a href="https://gtowson.github.io/gtowson/"> Home</a></li>    
 </ul><nav/>
        <main>
-           <h2>Sample One: Craiglist Ad</h2>
+           <h2 align="center">Sample One: Craiglist Ad</h2>
 <embed src="Craigslist.png" width="800" height="400">
        </main>     
   </body>
