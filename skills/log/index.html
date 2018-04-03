@@ -1,37 +1,130 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+   <a href="https://gtowson.github.io/gtowson/">Home</a>
+   <a href="https://gtowson.github.io/gtowson/biography/index.html">About Me</a>
+<div class="dropdown">
+    <button class="dropbtn">WIP I
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work1/">Reflection</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-1/">Sample I</a>
+      <a href="https://gtowson.github.io/gtowson/work1/sample-2/">Sample II</a>
+    </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">WIP II
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/work-2/">Reflection</a>
+      <a href="#">Sample I</a>
+      <a href="#">Sample II</a>
+    </div>
+    </div>
+<a href="https://gtowson.github.io/gtowson/portfolio/"> Final Portfolio</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Skills
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://gtowson.github.io/gtowson/skills/">Log One</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log/index.html">Log Two</a>
+      <a href="https://gtowson.github.io/gtowson/skills/log_2/index.html">Log Three</a>
+      <a href="https://gtowson.github.io/gtowson/skills/final-reflection/index.html">Final Reflection</a>
+    </div>
+    </div>
+  </div> 
+  </div> 
+</div>
 <body>
 <style>
 div.a {
     line-height: 1.6;
      text-indent: 50px;
+     margin: 50px;
 }
 div.b {
     line-height: 1.6;
      text-indent: 50px;
+     margin: 50px;
 }
 table, td, th {    
     border: 1px solid #ddd;
     text-align: left;
+    margin: 20px;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
 }
-
 th, td {
     padding: 15px;
 }
 </style>
-  <h1>Skills Assignment Learning Log One</h1>
-  <nav><ul class="main-menu">
-  <li><a href="https://gtowson.github.io/gtowson/"> Home Page</a></li>
-  <li><a href="https://gtowson.github.io/gtowson/skills/">Previous Page</a></li>
-  <li><a href="https://gtowson.github.io/gtowson/skills/log_2/index.html"> Skills Log 2</a></li>
-    </ul></nav>
-  <main>
-    <h2>Learning Log</h2>
+ 
+    <h2 align="center">Learning Log Two</h2>
    <div class="a">This week I worked on the first half of my web design curriculum. I researched non-profit websites for about four hours, and spent another six hours on the second Lynda CSS essential training. I started my research on non-profit websites by looking at major international non-profits sites like the Red Cross and Oxfam. After looking at both of these sites I realized that they shared many common design elements. Both websites focused heavily on incorporating visual elements that illustrated their work and organizational mission clearly to their audience. On both websites multiple images are featured on top of a white background. Having colorful images on top of a white background also make the images stand out. On the Red Crosses website for example, the home page features multiple striking images showing red cross employees at work in different communities on top of a white background. These images help to illustrate what the organization does and also feature highlighted links offering users an opportunity to connect with the organization through donating or volunteering. The images are very compelling and I imagine help to increase the chances of a user choosing to donate or volunteer with the Red Cross. When designing my website, I want to incorporate visual elements in a similar way.</div>
 <div class="b"> I also started to watch the second Lynda CSS essential training this week. Watching the videos took me longer than I expected because I stopped regularly to rewind and practice the things that the course was going over. I didn’t do this as much with the first training so I didn’t expect to spend as much time as I did on these videos this week. However, I found them more helpful this week because I have more of an understanding of how CSS works. I also felt more comfortable skipping around the video series and not necessarily watching them in order which made it easier for me to gain a deeper understanding of the lessons and left me less overwhelmed in general. I will probably do the same thing for the next video series next week, and really only focus on the components I want to use on my website. </div>
            <table>
